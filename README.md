@@ -111,7 +111,7 @@ Authorization: Bearer <sinu-token>
 
 Fail `expired_token.py` loob tokeni, mille kehtivusaeg on juba möödunud.
 
-Praeguses failis kasutatakse salavõtit `1982`. Selle testi jaoks peab ka API kasutama sama väärtust, vastasel juhul tokeni allkiri ei ühti.
+Praeguses failis kasutatakse salavõtit `igor_moj_secret_key_2026_928374`. Selle testi jaoks peab ka API kasutama sama väärtust, vastasel juhul tokeni allkiri ei ühti.
 
 1. Peata API, kui see töötab.
 2. Määra keskkonnamuutuja `JWT_SECRET` väärtuseks `1982`.
@@ -127,5 +127,5 @@ Praeguses failis kasutatakse salavõtit `1982`. Selle testi jaoks peab ka API ka
 
 Oodatav tulemus: HTTP `401 Unauthorized`.
 
-Pärast testi kasuta uuesti enda salavõtit. Ära kasuta väärtust `1982` päris rakenduses.
+Pärast testi kasuta uuesti enda salavõtit.
 
